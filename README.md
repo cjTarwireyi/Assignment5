@@ -1,5 +1,5 @@
 # Assignment5
-ONLINE BUS BOOKING SYSTEM
+BUS BOOKING SYSTEM
 
 
 
@@ -39,6 +39,6 @@ The passenger will be refunded
 
 Certain maximum amount of passengers will be allowed per bus
 
-            Bellow is the Domain Model
+           Bellow is the Domain Model
   
 <img src="https://github.com/cjTarwireyi/Assignment5/blob/master/DomainModel.png"/>
