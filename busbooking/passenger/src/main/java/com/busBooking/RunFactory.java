@@ -11,7 +11,7 @@ public class RunFactory
         PassengerFactory objFactory = PassengerFactory.getInstance();
 
         Contact objContact = new Contact("199 muizenberg","7945","021451278");
-        Passenger.PassengerBuilder b= new Passenger.PassengerBuilder();
+        Passenger.PassengerBuilder objBuild = new Passenger.PassengerBuilder();
         Passenger objPassenger =  objFactory.create("Cornelious","1515151551",objContact);
 
         System.out.println("Printing using factory method");
@@ -19,12 +19,12 @@ public class RunFactory
         +"  "+objPassenger.getContact().getPhoneNum());
 
         System.out.println("\n\nPrinting using builder");
-        Passenger objBuilder = b.idNum("4561")
+        Passenger objBuildPassenger = objBuild.idNum("4561")
                                     .name("Junior")
                                     .objContact(objContact)
                                     .build();
-       // Passenger objBuildPassenger =  objBuilder.build();
-        System.out.println( objBuilder.getName() + "  "+objBuilder.getContact().getAddress() );
+       // Passenger objBuildPassenger =  objBuildPassenger.build();
+        System.out.println( objBuildPassenger.getName() + "  "+ objBuildPassenger.getContact().getAddress() );
 
 
     }

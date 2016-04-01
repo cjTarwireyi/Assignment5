@@ -8,6 +8,7 @@
   <modules>
     <module>passenger</module>
     <module>booking</module>
+    <module>bus</module>
   </modules>
   <packaging>pom</packaging>
 
