@@ -8,6 +8,7 @@ public class Passenger {
     private String idNum;
     private Contact objContact ;
 
+
     public Passenger(String name,String idNum,Contact objContact) {
        this.objContact=objContact;
         this.idNum=idNum;

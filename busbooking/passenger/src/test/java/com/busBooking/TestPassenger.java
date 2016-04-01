@@ -12,7 +12,7 @@ public class TestPassenger {
     private Contact objCont;
     @Before
     public void setUp() throws Exception {
-        objPassengerFactory= new PassengerFactory();
+        objPassengerFactory= PassengerFactory.getInstance();
 
     }
 
