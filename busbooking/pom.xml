@@ -9,6 +9,7 @@
     <module>passenger</module>
     <module>booking</module>
     <module>bus</module>
+    <module>employee</module>
   </modules>
   <packaging>pom</packaging>
 
