@@ -10,6 +10,8 @@
     <module>booking</module>
     <module>bus</module>
     <module>employee</module>
+    <module>maintainance</module>
+    <module>costinterface</module>
   </modules>
   <packaging>pom</packaging>
 

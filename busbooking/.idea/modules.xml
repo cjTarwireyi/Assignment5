@@ -5,7 +5,9 @@
       <module fileurl="file://$PROJECT_DIR$/booking/booking.iml" filepath="$PROJECT_DIR$/booking/booking.iml" />
       <module fileurl="file://$PROJECT_DIR$/bus/bus.iml" filepath="$PROJECT_DIR$/bus/bus.iml" />
       <module fileurl="file://$PROJECT_DIR$/busbooking.iml" filepath="$PROJECT_DIR$/busbooking.iml" />
+      <module fileurl="file://$PROJECT_DIR$/costinterface/costinterface.iml" filepath="$PROJECT_DIR$/costinterface/costinterface.iml" />
       <module fileurl="file://$PROJECT_DIR$/employee/employee.iml" filepath="$PROJECT_DIR$/employee/employee.iml" />
+      <module fileurl="file://$PROJECT_DIR$/maintainance/maintainance.iml" filepath="$PROJECT_DIR$/maintainance/maintainance.iml" />
       <module fileurl="file://$PROJECT_DIR$/passenger/passenger.iml" filepath="$PROJECT_DIR$/passenger/passenger.iml" />
     </modules>
   </component>
